@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label Dragger changes color of label after its clicked 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdVaJa eyzjMJ react-draggable"
+    style="transform: translate(0px,0px);"
+  >
+    <label
+      class="handle"
+      style="color: blue;"
+    >
+      word1
+    </label>
+    <span
+      class="hidden"
+    >
+      <span>
+        x: 0
+        <br />
+        y: 0
+      </span>
+    </span>
+  </div>
+  <div
+    class="sc-bdVaJa eyzjMJ react-draggable"
+    style="transform: translate(0px,0px);"
+  >
+    <label
+      class="handle"
+      style="color: red;"
+    >
+      word2
+    </label>
+    <span
+      class="hidden"
+    >
+      <span>
+        x: 0
+        <br />
+        y: 0
+      </span>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Label Dragger changes position of element after its dragged 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdVaJa eyzjMJ react-draggable react-draggable-dragged"
+    style="transform: translate(100px,100px);"
+  >
+    <label
+      class="handle"
+      style="color: red;"
+    >
+      word1
+    </label>
+    <span
+      class="hidden"
+    >
+      <span>
+        x: 100
+        <br />
+        y: 100
+      </span>
+    </span>
+  </div>
+  <div
+    class="sc-bdVaJa eyzjMJ react-draggable"
+    style="transform: translate(0px,0px);"
+  >
+    <label
+      class="handle"
+      style="color: red;"
+    >
+      word2
+    </label>
+    <span
+      class="hidden"
+    >
+      <span>
+        x: 0
+        <br />
+        y: 0
+      </span>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Label Dragger renders label draggers with words 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdVaJa eyzjMJ react-draggable"
+    style="transform: translate(0px,0px);"
+  >
+    <label
+      class="handle"
+      style="color: red;"
+    >
+      word1
+    </label>
+    <span
+      class="hidden"
+    >
+      <span>
+        x: 0
+        <br />
+        y: 0
+      </span>
+    </span>
+  </div>
+  <div
+    class="sc-bdVaJa eyzjMJ react-draggable"
+    style="transform: translate(0px,0px);"
+  >
+    <label
+      class="handle"
+      style="color: red;"
+    >
+      word2
+    </label>
+    <span
+      class="hidden"
+    >
+      <span>
+        x: 0
+        <br />
+        y: 0
+      </span>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Label Dragger shows the tooltip after 2000ms hover 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdVaJa eyzjMJ react-draggable"
+    style="transform: translate(0px,0px);"
+  >
+    <label
+      class="handle"
+      style="color: red;"
+    >
+      word1
+    </label>
+    <span
+      class=""
+    >
+      <span>
+        x: 0
+        <br />
+        y: 0
+      </span>
+    </span>
+  </div>
+  <div
+    class="sc-bdVaJa eyzjMJ react-draggable"
+    style="transform: translate(0px,0px);"
+  >
+    <label
+      class="handle"
+      style="color: red;"
+    >
+      word2
+    </label>
+    <span
+      class="hidden"
+    >
+      <span>
+        x: 0
+        <br />
+        y: 0
+      </span>
+    </span>
+  </div>
+</DocumentFragment>
+`;

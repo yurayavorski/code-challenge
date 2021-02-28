@@ -1,0 +1,67 @@
+{
+  "name": "piniata-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "lint": "eslint --fix --ext .ts,.tsx src/** --no-error-on-unmatched-pattern",
+    "eslint-report": "eslint -f json -o eslint-report.json **/*.{ts,tsx}"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-draggable": "^4.4.3",
+    "react-loading-overlay": "^1.0.1",
+    "react-redux": "^7.1.0-alpha.4",
+    "react-scripts": "^3.0.1",
+    "react-spinners": "^0.10.6",
+    "redux": "^4.0.1",
+    "styled-components": "^4.2.0",
+    "styled-normalize": "^8.0.6",
+    "typescript": "^3.7.0",
+    "video-react": "^0.14.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.10.1",
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/react": "^10.2.1",
+    "@testing-library/user-event": "^11.4.0",
+    "@types/jest": "24.0.12",
+    "@types/node": "12.0.0",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "16.8.4",
+    "@types/react-redux": "^7.0.9",
+    "@types/styled-components": "^4.1.14",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "eslint": "^6.0.0",
+    "eslint-plugin-jest": "^24.1.5",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-import-resolver-babel-module": "^5.1.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jsdom": "^16.2.2",
+    "ts-jest": "^26.5.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
